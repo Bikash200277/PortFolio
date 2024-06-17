@@ -1,0 +1,118 @@
+body.bg-light.text-black {
+    background-color: #f8f9fa;
+    color: #212529;
+    .user-img {
+        height: 150px;
+        width: 150px;
+        margin-top: -90px;
+        border-radius: 50%;
+        border: 8px solid white ;
+    }
+}
+
+body.bg-black.text-white {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.card.bg-dark.text-white {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.card.bg-white.text-black {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.intro-card{
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px yellow;
+    transition: all 0.5s ease-in-out;
+    
+}
+.intro-card:hover{
+    transform:scale(1.1);
+}
+.aca-card{
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px yellow;
+    transition: all 0.5s ease-in-out;
+    
+}
+.aca-card:hover{
+    transform:scale(1.1);
+}
+.skill-card{
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px yellow;
+    transition: all 0.5s ease-in-out;
+    
+}
+.skill-card:hover{
+    transform:scale(1.1);
+}
+.project-card{
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px yellow;
+    transition: all 0.5s ease-in-out;
+    
+}
+.project-card:hover{
+    transform:scale(1.1);
+}
+.contact-card{
+    margin-top: 100px;
+    box-shadow: 2px 2px 10px yellow;
+    transition: all 0.5s ease-in-out;
+    
+}
+.contact-card:hover{
+    transform:scale(1.1);
+}
+
+.user-img {
+    height: 150px;
+    width: 150px;
+    margin-top: -90px;
+    border-radius: 50%;
+    border: 8px solid #212529 ;
+}
+
+.skill-img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.tools img {
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+
+#themeSwitch {
+    width: 50px;
+    height: 25px;
+    background-color: #30305a;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+#themeSwitch::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#themeSwitch:checked::before {
+    left: 70%;
+}
